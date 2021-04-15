@@ -126,6 +126,17 @@
     &[data-category-id="3"] {
       .category-head {
         background-image: url(https://files.facepunch.com/garry/a4855dbf-5c09-47bd-b950-74a0132e2a9d.png);
+        .category-description {
+          color: #4e5e69 !important;
+        }
+        &:before {
+          background: linear-gradient(
+            90deg,
+            rgba(#1e6b00, 0.7) 20%,
+            rgba(#1e6b00, 0.3) 60%,
+            rgba(#1e6b00, 0.4) 100%
+          );
+        }
       }
 
       .subcategories,
@@ -141,15 +152,15 @@
       .category-head {
         background-image: url(https://files.facepunch.com/garry/9bb26b95-3771-481d-8e2d-1564373de900.png);
         .category-description {
-          color: #c0e5ff !important;
+          color: #4e5e69 !important;
         }
 
         &:before {
           background: linear-gradient(
             90deg,
-            rgba(#1194f0, 0.7) 20%,
-            rgba(#1194f0, 0.3) 60%,
-            rgba(#1194f0, 0.4) 100%
+            rgba(#f0bc11, 0.7) 20%,
+            rgba(#f0bc11, 0.3) 60%,
+            rgba(#f0bc11, 0.4) 100%
           );
         }
       }
@@ -162,8 +173,8 @@
       }
     }
 
-    // Set Styling for Sandbox Cat. ("1")
-    &[data-category-id="1"] {
+    // Set Styling for Sandbox Cat. ("5")
+    &[data-category-id="5"] {
       .category-head {
         background-image: url(https://files.facepunch.com/garry/f14fdb16-aa6c-491c-aaaa-f20a6c19ccf8.png);
       }
